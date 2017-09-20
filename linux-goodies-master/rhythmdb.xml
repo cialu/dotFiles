@@ -1,0 +1,319 @@
+<?xml version="1.0" standalone="yes"?>
+<rhythmdb version="1.9">
+  <entry type="song">
+    <title>Unknown</title>
+    <genre>Unknown</genre>
+    <artist>Unknown</artist>
+    <album>Unknown</album>
+    <duration>Unknown</duration>
+    <file-size>Unknown</file-size>
+    <location>Unknown</location>
+    <mtime>Unknown</mtime>
+    <first-seen>Unknown</first-seen>
+    <last-seen>Unknown</last-seen>
+    <bitrate>Unknown</bitrate>
+    <date>Unknown</date>
+    <media-type>Unknown</media-type>
+    <composer>Unknown</composer>
+  </entry>
+  <entry type="iradio">
+    <title>1.FM - AMSTERDAM TRANCE RADIO</title>
+    <genre>Trance Progressive Electronic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://sc8.1.fm:7706/listen.pls&amp;t=.m3u</location>
+    <play-count>5</play-count>
+    <last-played>1421909014</last-played>
+    <bitrate>31</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Dream Factory</title>
+    <genre>Ambient</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/ambient.ogg</location>
+    <play-count>7</play-count>
+    <last-played>1421487082</last-played>
+    <bitrate>64</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>WKNC  FM</title>
+    <genre>Eclectic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://wknc.sma.ncsu.edu:8000/wknchq.ogg.m3u</location>
+    <play-count>2</play-count>
+    <last-played>1420619765</last-played>
+    <bitrate>112</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Paradise</title>
+    <genre>Eclectic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://stream-tx1.radioparadise.com:9000/rp_192m.ogg</location>
+    <play-count>2</play-count>
+    <last-played>1421909171</last-played>
+    <bitrate>192</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Swiss Jazz</title>
+    <genre>Jazz Music</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.radioswissjazz.ch/live/mp3.m3u</location>
+    <play-count>2</play-count>
+    <last-played>1421001684</last-played>
+    <bitrate>127</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio GFM - Electro</title>
+    <genre>Electro</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/electro.ogg.m3u</location>
+    <play-count>2</play-count>
+    <last-played>1420579781</last-played>
+    <bitrate>128</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>The Empire Radio</title>
+    <genre>Alternative</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://50.7.70.66:8628/</location>
+    <play-count>1</play-count>
+    <last-played>1420812546</last-played>
+    <bitrate>127</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>RAI Radio3</title>
+    <genre>Classical</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.listenlive.eu/rai3.m3u</location>
+    <play-count>2</play-count>
+    <last-played>1421909122</last-played>
+    <bitrate>96</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Ministry of Sound</title>
+    <genre>Electronic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://tx.sharp-stream.com/icecast.php?i=mos.mp3</location>
+    <play-count>5</play-count>
+    <last-played>1420914281</last-played>
+    <bitrate>55</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>AfterHours.fm</title>
+    <genre>Electronic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.ah.fm/192k.m3u</location>
+    <play-count>1</play-count>
+    <last-played>1420811957</last-played>
+    <bitrate>192</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Pure.FM Progressive</title>
+    <genre>Progressive</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://212.7.196.96:8000/</location>
+    <play-count>1</play-count>
+    <last-played>1420812452</last-played>
+    <bitrate>128</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>RAI Radio1</title>
+    <genre>News</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.listenlive.eu/rai1.m3u</location>
+    <play-count>1</play-count>
+    <last-played>1420620792</last-played>
+    <bitrate>96</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio GFM - RockPop</title>
+    <genre>Pop</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/rockpop.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio GFM - Metal</title>
+    <genre>Metal</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/metal.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>RMC</title>
+    <genre>Contemporary</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://shoutcast.unitedradio.it:1103/listen.pls</location>
+    <play-count>3</play-count>
+    <last-played>1420969295</last-played>
+    <bitrate>128</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>RAI Radio2</title>
+    <genre>Contemporary</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.listenlive.eu/rai2.m3u</location>
+    <play-count>2</play-count>
+    <last-played>1421909332</last-played>
+    <bitrate>96</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>AmbientRadio</title>
+    <genre>Chill Out</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://uk2.internet-radio.com:31491/</location>
+    <play-count>6</play-count>
+    <last-played>1420969245</last-played>
+    <bitrate>128</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Tranceponder</title>
+    <genre>Trance</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/trance.ogg</location>
+    <play-count>6</play-count>
+    <last-played>1421909215</last-played>
+    <bitrate>64</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>ParisOneTrance</title>
+    <genre>Trance</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://listen.radionomy.com/parisonetrance.pls</location>
+    <play-count>2</play-count>
+    <last-played>1420913832</last-played>
+    <bitrate>128</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Tronic Lounge</title>
+    <genre>House</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/tronic.ogg</location>
+    <play-count>4</play-count>
+    <last-played>1421909323</last-played>
+    <bitrate>64</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>ParisOneClub</title>
+    <genre>House</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://listen.radionomy.com/parisoneclub.pls</location>
+    <bitrate>127</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Pure.FM Deep House</title>
+    <genre>House</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://212.7.196.96:8002/</location>
+    <play-count>1</play-count>
+    <last-played>1420812369</last-played>
+    <bitrate>127</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Deepinradio</title>
+    <genre>House</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://77.92.76.134:8525/</location>
+    <play-count>2</play-count>
+    <last-played>1420650526</last-played>
+    <bitrate>128</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Deejay</title>
+    <genre>Radio</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://mp3.kataweb.it:8000/RadioDeejay.m3u</location>
+    <play-count>5</play-count>
+    <last-played>1421240533</last-played>
+    <bitrate>96</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>105Radio</title>
+    <genre>POP</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://shoutcast.unitedradio.it:1101/</location>
+    <play-count>1</play-count>
+    <last-played>1440909678</last-played>
+    <bitrate>127</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+    <title>Radio GFM - Metal</title>
+    <genre>Metal</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://streams.radio-gfm.net/metal.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+</rhythmdb>

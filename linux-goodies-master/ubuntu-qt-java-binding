@@ -1,0 +1,39 @@
+Qt Jambi - Qt-Java binding
+http://qtjambi.org
+
+-----
+
+Same as Java-Gnome library, QT Jambi is a QT Binding to Java, allowing you to develop QT GUI using Java instead of C++.
+
+Install Qt Jambi from its PPA:
+sudo apt-add-repository 'deb http://ppa.launchpad.net/qtjambi-community/libqtjambi/ubuntu maverick main' 
+sudo apt-get update 
+sudo apt-get install libqtjambi
+
+
+Open Eclipse, Create a Java Project and add external libraries from /usr/share/java/
+Adding the qtjambi.jar does the job.
+
+-----
+
+Source code at https://qt.gitorious.org/qt-jambi
+
+-----
+
+Install Qt Designer:
+
+sudo apt-get install qt4-designer
+
+-----
+
+Old designer integration (deprecated now!)
+
+Qt Jambi integrates with QT Designer
+
+Go to your Terminal and type:
+
+qtjambi-designer.sh
+
+or
+
+bash /usr/bin/qtjambi-designer.sh

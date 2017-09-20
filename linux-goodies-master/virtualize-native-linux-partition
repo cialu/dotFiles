@@ -1,0 +1,31 @@
+Assuming VMVare like a virtualization engine (In Virtual Box the procedure is little bit different)
+
+On Terminal type:
+cd /Applications/VMware\ Fusion.app/Contents/Library/
+./vmware-rawdiskCreator print /dev/disk0
+
+In my case Nr.6 is GPT EE Linux FS, so:
+./vmware-rawdiskCreator create /dev/disk0 6 ~/Documents/Virtual\ Machines.localized/Virtual\ Disk ide
+
+In VM create a custom virtual machine, select Linux Ubuntu 64bit, Fedora 64bit or your fav distro and create a new virtual disk
+Open Open Virtual Machines folder and copy  Virtual Disk.vmdk and Virtual Disk-pt.vmdk
+On Fusion Machine Package, trash all the .vmdk files and past the newly created
+
+Open Ubuntu 64-bit.vmx (or similar for other distros) with a text editor
+Delete entries that start with ‘scsi0:0’ (do not delete ‘scsi0.’ only ‘scsi0:0′)
+Add the following:
+ide0:0.present = "TRUE"
+ide0:0.fileName = "Virtual Disk.vmdk"
+ide0:0.deviceType = "rawDisk"
+suspend.disabled = "TRUE"
+
+On settings of VM, enable the CD/DVD Drive and set to load the follow iso file:
+http://forja.cenatic.es/frs/download.php/file/1757/super_grub2_disk_hybrid_2.00s2.iso
+
+Start your VM, press F2 to enter bios setup 
+On Boot tab, reorder the boot list entries like this:
+CD-ROM drive > Removable Devices > Hard Drive > Network boot
+
+Exit and save
+
+Run and enjoy your linux native partition virtualized inside what you want!

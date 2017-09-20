@@ -1,0 +1,34 @@
+Rhythmbox stores meta information of your media library in an XML file which is located at:
+~/.local/share/rhythmbox/rhythmdb.xml
+
+
+Some Radio stations to add:
+
+VW Classic Rock - http://yp.shoutcast.com/sbin/tunein-station.pls?id=100621
+WinampM3UXSPF	Hard Rock Heaven - http://yp.shoutcast.com/sbin/tunein-station.pls?id=230130
+
+Radio Deejay - http://mp3.kataweb.it:8000/RadioDeejay.m3u
+
+RAI Radio 1 - http://www.listenlive.eu/rai1.m3u
+RAI Radio 2 - http://www.listenlive.eu/rai2.m3u
+RAI Radio 3 - http://www.listenlive.eu/rai3.m3u
+
+
+AmbientRadio - http://uk2.internet-radio.com:31491/
+Radio Paradise - http://stream-tx1.radioparadise.com:9000/rp_192m.ogg
+Radio Swiss Jazz - http://www.radioswissjazz.ch/live/mp3.m3u
+RMC Monte Carlo - http://shoutcast.unitedradio.it:1103/listen.pls
+The Empire Radio - http://50.7.70.66:8628/
+105Radio - http://shoutcast.unitedradio.it:1101/
+
+AfterHours.fm - http://www.ah.fm/192k.m3u
+AMSTERDAM TRANCE RADIO - http://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://sc8.1.fm:7706/listen.pls&t=.m3u
+Deepinradio - http://77.92.76.134:8525/
+Dream Factory - http://ubuntu.hbr1.com:19800/ambient.ogg
+ParisOne Club   - http://listen.radionomy.com/parisoneclub.pls
+ParisOne Trance - http://listen.radionomy.com/parisonetrance.pls
+Pure.FM Deep House - http://212.7.196.96:8002/
+Pure.FM Progressive - http://212.7.196.96:8000/
+Ministry of Sound - http://tx.sharp-stream.com/icecast.php?i=mos.mp3
+Tranceponder - http://ubuntu.hbr1.com:19800/trance.ogg
+Tronic Lounge - http://ubuntu.hbr1.com:19800/tronic.ogg
