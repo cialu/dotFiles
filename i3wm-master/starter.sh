@@ -8,7 +8,8 @@ echo "..."
 echo "...starter launcher is working"
 echo "..."
 
-nohup nm-applet &
-nohup thunderbird & disown &
-nohup /opt/Telegram/Telegram & disown &
-nohup firefox & disown & exit 0
+nohup nm-applet > /dev/null &
+nohup thunderbird > /dev/null &
+nohup hexchat > /dev/null &
+nohup /opt/Telegram/Telegram > /dev/null &
+nohup firefox > /dev/null & exit 0
