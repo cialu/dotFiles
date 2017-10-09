@@ -1,0 +1,1 @@
+watch -d "sensors | grep 'fan\|temp\|CPUTIN'"
