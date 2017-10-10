@@ -1,1 +1,2 @@
+sudo modprobe nct6775 force_id=0xd120
 watch -d "sensors | grep 'fan\|temp\|CPUTIN'"
