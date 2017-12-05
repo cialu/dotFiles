@@ -1,0 +1,60 @@
+@echo off
+:: BatchGotAdmin
+:: https://stackoverflow.com/questions/1894967/how-to-request-administrator-access-inside-a-batch-file
+::-------------------------------------
+REM  --> Check for permissions
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+
+REM --> If error flag set, we do not have admin.
+if '%errorlevel%' NEQ '0' (
+    echo Requesting administrative privileges...
+    goto UACPrompt
+) else (
+    goto gotAdmin
+)
+
+:UACPrompt
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+    set params = %*:"="
+    echo UAC.ShellExecute "cmd.exe", "/c %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs"
+
+    "%temp%\getadmin.vbs"
+    del "%temp%\getadmin.vbs"
+    exit /B
+
+:gotAdmin
+	pushd %~DP0
+::--------------------------------------
+TITLE JJs Reset and Run Tool for Vega
+::
+:: Author: cialu
+::
+:: Based upon: TheJerichoJones script on GitHub
+::
+:: Resets the Vega driver
+:: Repeats the process
+::
+::
+::
+::
+:Start
+echo.
+echo ****************************************
+echo *      Reset Tool for Vega cards       *
+echo ****************************************
+echo.
+START /W PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Get-PnpDevice| where {$_.friendlyname -like 'Radeon RX Vega'} | Disable-PnpDevice -ErrorAction Ignore -Confirm:$false | Out-Null}"
+TIMEOUT /t 5
+START /W PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Get-PnpDevice| where {$_.friendlyname -like 'Radeon RX Vega'} | Enable-PnpDevice -ErrorAction Ignore -Confirm:$false | Out-Null}"
+echo. 
+echo.
+
+pause>nul
+echo.
+echo.
+echo ****************************************
+echo *   Press any key to quit the script   *
+echo ****************************************
+echo.
+pause>nul
+echo.
