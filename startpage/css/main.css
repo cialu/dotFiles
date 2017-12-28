@@ -75,9 +75,9 @@ section {
 }
 
 .card-green {
-  background-color: rgba(11, 200, 149, 0.88);
-  margin-right: 140px;
+  background-color: rgba(37, 209, 163, 0.6);
   border-radius: 5px;
+  padding: 12px;
   width: 354px;
 }
 
@@ -100,7 +100,7 @@ section {
 
 .card-green .group .subtitle {
   font-size: 20px;
-  color: #61cde4;
+  color: #17cdb2;
   text-align: center;
 }
 
@@ -114,15 +114,15 @@ section {
 }
 
 .card-green .group .weather .icon {
-  color: #61cde4;
+  color: #17cdb2;
 }
 
 .card-purple {
   width: 354px;
-  height: auto;
-  padding: 32px;
+  margin-right: 140px;
   background: rgba(145, 20, 88, 0.7);
   border-radius: 5px;
+  padding: 32px;
 }
 
 .card-purple .cat-group .cat {
@@ -137,7 +137,7 @@ section {
 }
 
 .card-purple .cat-group a {
-  color: #e43f23;
+  color: #ec3a1c;
   text-decoration: none;
 }
 
