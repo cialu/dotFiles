@@ -75,7 +75,7 @@ section {
 }
 
 .card-green {
-  background-color: rgba(37, 95, 58, 0.7);
+  background-color: rgba(11, 200, 149, 0.88);
   margin-right: 140px;
   border-radius: 5px;
   width: 354px;
@@ -88,7 +88,7 @@ section {
 }
 
 .card-green .group:first-child {
-  border-bottom: 2px solid #358853;
+  border-bottom: 2px solid #17cdb2;
 }
 
 .card-green .group .title {
@@ -100,7 +100,7 @@ section {
 
 .card-green .group .subtitle {
   font-size: 20px;
-  color: #b2b2b2;
+  color: #61cde4;
   text-align: center;
 }
 
@@ -114,33 +114,33 @@ section {
 }
 
 .card-green .group .weather .icon {
-  color: #b2b2b2;
+  color: #61cde4;
 }
 
-.card-brown {
+.card-purple {
   width: 354px;
   height: auto;
   padding: 32px;
-  background: rgba(136, 75, 53, 0.7);
+  background: rgba(145, 20, 88, 0.7);
   border-radius: 5px;
 }
 
-.card-brown .cat-group .cat {
+.card-purple .cat-group .cat {
   font-size: 20px;
   margin-right: 10px;
   display: inline;
 }
 
-.card-brown .cat-group p {
+.card-purple .cat-group p {
   font-size: 16px;
   display: inline;
 }
 
-.card-brown .cat-group a {
+.card-purple .cat-group a {
   color: #e43f23;
   text-decoration: none;
 }
 
-.card-brown .cat-group a:hover {
+.card-purple .cat-group a:hover {
   color: #e46e23;
 }
