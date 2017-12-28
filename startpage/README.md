@@ -1,6 +1,7 @@
-# Startpage
+# nix-startpage
 
-My code sucks because I'm still a beginner.
+code sucks but it's nice
 
-## Commands
+## commands
+
 Use **|g** to search in Google and use **|y** to search in Youtube
