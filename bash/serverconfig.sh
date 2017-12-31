@@ -1,6 +1,6 @@
 #!/bin/sh
-mkdir sysprep
-cd sysprep
+mkdir systemp
+cd systemp
 clear
 echo -------------------------------------
 echo    Script to Configure 
@@ -51,7 +51,7 @@ mv hostname /etc
 mv hosts /etc
 mv interfaces /etc/network
 cd ..
-rm -R sysprep
+rm -R systemp
 echo Server rebooting in 10 seconds...
 sleep 10
 shutdown -r now
