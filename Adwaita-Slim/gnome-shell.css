@@ -1,0 +1,43 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+/* GLOBALS */
+stage {
+font-family: FONT-YOU-LIKE, Cantarell, Sans-Serif;
+font-size: 10pt;
+color: #eeeeec; }
+
+#panel {
+background-color: #2C3133;
+background-gradient-direction:none;
+/* transition from solid to transparent */
+transition-duration: 0ms;
+font-weight: normal;
+height: 21px; }
+
+#panel .panel-corner {
+-panel-corner-radius: 0px;
+-panel-corner-background-color: transparent;
+-panel-corner-border-width: 0px;
+-panel-corner-border-color: transparent; }
+#panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
+-panel-corner-border-color: transparent; }
+
+#panel .panel-button {
+-natural-hpadding: 12px;
+-minimum-hpadding: 6px;
+font-weight: bold;
+color: #eeeeec;
+text-shadow: none;
+transition-duration: 0ms; }
+
+#panel.solid {
+background-color: #2C3133;
+background-gradient-direction:none;
+/* transition from transparent to solid */
+transition-duration: 0ms; }
+#panel.solid .panel-corner {
+-panel-corner-background-color: transparent; }
+
+#panel.solid .panel-button {
+color: #eeeeec;
+text-shadow: none; }
