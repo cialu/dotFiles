@@ -1,0 +1,3 @@
+    - Open about:config in Firefox
+    - Create a new String value with the right click and named it as widget.content.gtk-theme-override
+    - Set Adwaita as the value or a GTK light theme of your choice
