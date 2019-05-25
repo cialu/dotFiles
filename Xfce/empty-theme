@@ -1,0 +1,2 @@
+$ sudo mkdir -p /usr/share/themes/empty/xfwm4/
+$ sudo touch /usr/share/themes/empty/xfwm4/themerc
