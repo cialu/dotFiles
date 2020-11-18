@@ -1,0 +1,20 @@
+ .xfce4-panel .tasklist .toggle {
+    background-color: #1B212C;
+    color: #2e3440;
+    -gtk-icon-transform: scale(1.2);
+     }
+
+ #whiskermenu-button label {
+    color: #2e3440;
+     }
+
+ #xfce4-notification-plugin {
+    background-color: #1B212C;
+     }
+
+  wnck-pager {
+    background-color: #2e3440 }
+  wnck-pager:hover {
+    background-color: #2e3440 }
+  wnck-pager:selected {
+    background-color: #3b4252 }
